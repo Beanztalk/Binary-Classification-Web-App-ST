@@ -15,6 +15,7 @@ def main():
     st.sidebar.title("Binary Classification Web App")
     st.markdown("Are your mushrooms edible or poisonous?")
     st.sidebar.markdown("Are your mushrooms edible or poisonous?")
+    st.sidebar.markdown("Made by Vince Diloy")
 
     @st.cache_data(persist=True)
     def Load_data():
